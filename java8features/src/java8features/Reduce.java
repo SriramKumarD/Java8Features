@@ -3,6 +3,8 @@ package java8features;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
+import java.util.stream.Collector;
+import java.util.stream.Collectors;
 
 public class Reduce {
 
@@ -53,7 +55,6 @@ public class Reduce {
 				.mapToDouble(i->i)
 				.sum();
 		System.out.println(sumSalary);
-		
 	}
 
 }

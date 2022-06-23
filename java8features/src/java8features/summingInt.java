@@ -27,6 +27,7 @@ public class summingInt {
 
 
 class Employee {
+	
 	 private int id;
 	 private int deptId;
 	 private String name;
@@ -39,17 +40,21 @@ class Employee {
 	  this.name = name;
 	  this.salary = salary;
 	 }
+	 
 	 public int getId() {
 	  return id;
 	 }
+	 
 	 public String getName() {
 	  return name;
 	 }
+	 
 	 public int getSalary() {
 	  return salary;
 	 }
+	 
 	 public int getDeptId() {
 	  return deptId;
 	 }
 
-	}
+}

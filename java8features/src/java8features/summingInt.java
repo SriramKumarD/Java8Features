@@ -18,7 +18,10 @@ public class summingInt {
 		
 		System.out.println("Total Salary :"+total);
 		
+		Comparator<Employee> obj = Comparator.comparing(Employee::getSalary).thenComparing(Employee::getName);
+		
 		List<Employee> highestSalary = employees.stream().sorted(Comparator.comparingDouble(Employee::getSalary)).collect(Collectors.toList());
+		
 		highestSalary.forEach(s -> System.out.println("Sorted Salary :"+s.getSalary()));
 		System.out.println(highestSalary.get(employees.size()-2).getSalary());
 	}

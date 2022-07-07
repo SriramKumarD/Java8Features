@@ -38,6 +38,10 @@ public class Reduce {
 		Optional<String> longestWord = words.stream().reduce((word1, word2) -> word1.length() > word2.length() ? word1:word2);
 		System.out.println(longestWord.get());
 		
+		
+		
+		
+		
 		List<Employee1> empList = EmployeeDatabase.getEmployees();
 		
 		//Avg Salary

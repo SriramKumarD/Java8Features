@@ -15,6 +15,10 @@ public class HashMapTest {
 	    map.put(obj1, 1);
 	    map.put(obj2, 2);
 	    
+	    
+	    
+	  
+	    
 	    System.out.println("Map:"+map.size());
 	    
 	    obj1.setName("kumar");

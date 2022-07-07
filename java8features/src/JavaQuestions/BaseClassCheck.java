@@ -21,7 +21,7 @@ class B extends A {
 		System.out.println("sss11");
 	}
 	void test2() {
-		
+		System.out.println("test2");
 	}
 }
 public class BaseClassCheck {

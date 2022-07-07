@@ -1,8 +1,10 @@
 package java8features;
 
-public class ExceptionCheck {
+public class ExceptionCheck 
+{
 	
-	public static Integer check() {
+	public static Integer check() 
+	{
 		try {
 			
 			return 1;

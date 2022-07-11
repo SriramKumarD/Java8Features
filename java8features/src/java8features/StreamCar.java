@@ -15,21 +15,7 @@ public class StreamCar {
 				new EmployeeCar(3, Arrays.asList("Nexon", "WRV", "Kwid"))
 				);
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+
 		empList.stream().flatMap(emp -> emp.getCars().stream())
 		.collect(Collectors.toSet())
 		.forEach( e -> System.out.println(e));
